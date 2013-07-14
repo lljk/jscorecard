@@ -3,7 +3,7 @@ jscorecard
 
 baseball scorecard generator
 
-Scorecard Generator
+jScorecard
 
 Hey there - 
 
