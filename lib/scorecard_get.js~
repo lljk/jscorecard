@@ -15,6 +15,7 @@ var away_batters = [], home_batters = [];
 var away_pitchers = [], home_pitchers = [];
 var away_actions = {}, home_actions = {};
 //var failed = [];
+//console.log('in get:', failed_fetches);/////////
 
 function get_json(url, callback) {
 	jsonlib.fetch(url, function(data) {
@@ -38,7 +39,7 @@ function get_games(){
 	date = month + '&nbsp' + day + ',&nbsp' + year;
 	
 	get_json(url, function(json) {
-			if (local_save) { localStorage.setItem('epg', JSON.stringify(json)) };
+			if (local_save) { localStorage.setItem('epg', JSON.stringify(json)) };////////////////
 			var games = json.game;
 			make_games_list(games, function(game, id){
 					game_url += 'gid_' + id + '/';
@@ -73,13 +74,13 @@ function get_game_header(game_url, callback) {
 				});
 			};
 			
-			function get_boxscore(callback) {
+			function get_boxscore(callback) {//game_url, callback) {
 				var url = game_url + 'boxscore.xml'
 				get_json(url, function(json) {
 						boxscore = json;
-						if (local_save) {
+						if (local_save) {///////////////
 							localStorage.setItem('boxscore', JSON.stringify(boxscore));
-						};
+						};/////////////////////////////////////
 						callback();
 				});
 			};
@@ -88,7 +89,7 @@ function get_game_header(game_url, callback) {
 			function signal_got() {
 				gotten += 1
 				if (gotten == 2) {
-					if (local_save) {
+					if (local_save) {///////////////
 						localStorage.setItem('home_team', JSON.stringify(home_team));
 						localStorage.setItem('away_team', JSON.stringify(away_team));
 						localStorage.setItem('date', date);
@@ -105,8 +106,8 @@ function get_game_header(game_url, callback) {
 function get_innings(game_url, callback) {
 	var url = game_url + 'inning/inning_all.xml'
 	get_json(url, function(json) {
-			this.innings = json.inning
-			$(this.innings).each(function(i, inning) {
+			this.innings = json.inning//////////////////
+			$(this.innings).each(function(i, inning) {////////////////////
 					away_innings.push(inning.top.atbat);
 					if (inning.bottom) {
 						home_innings.push(inning.bottom.atbat)
@@ -172,6 +173,7 @@ function get_players(game_url, away_innings, home_innings, callback) {
 	});
 	
 	function fetch_batters(game_url, id_array, callback_fetch) {
+		//var inning = 0, id = 0;
 		attempt_fetch();///////////////////////////////
 		function attempt_fetch() {///////////////////////////////////
 			$(id_array).each(function(i, id) {
@@ -208,6 +210,7 @@ function get_players(game_url, away_innings, home_innings, callback) {
 	};
 	
 	function fetch_pitchers(pitchers, fetch_pitchers_callback) {
+		//console.log(fetched, to_fetch)
 		attempt_fetch();///////////////////////////////
 		function attempt_fetch() {///////////////////////////////////
 			$(pitchers).each(function(i, pitcher) {
@@ -253,10 +256,10 @@ function get_players(game_url, away_innings, home_innings, callback) {
 	
 	function call_it_all_back() {
 		if (local_save) {
-			localStorage.setItem('away_batters', JSON.stringify(away_batters));
-			localStorage.setItem('home_batters', JSON.stringify(home_batters));
-			localStorage.setItem('away_pitchers', JSON.stringify(away_pitchers));
-			localStorage.setItem('home_pitchers', JSON.stringify(home_pitchers));
+			localStorage.setItem('away_batters', JSON.stringify(away_batters));////////////////////
+			localStorage.setItem('home_batters', JSON.stringify(home_batters));///////////////////
+			localStorage.setItem('away_pitchers', JSON.stringify(away_pitchers));////////////////////
+			localStorage.setItem('home_pitchers', JSON.stringify(home_pitchers));///////////////////
 		}
 		callback(away_batters, home_batters, away_pitchers, home_pitchers);
 	};

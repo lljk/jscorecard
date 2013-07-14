@@ -291,6 +291,8 @@ function make_footer(){
 	
 	function make_help_box(callback) {
 		var help = $('<div class="help_box"></div>');
+		
+		
 		var help_tabs_div = $('<div id="help_tabs_div"></div>');
 		var tab1 = $('<div class="help_tab" id="tab1">Cards</div>');
 		var tab2 = $('<div class="help_tab" id="tab2">At Bat Cells</div>');
@@ -445,10 +447,9 @@ function make_popup(title, body, click_event){
 	var top = click_event.pageY - (popup_box.prop('clientHeight') / 2);
 	var left = click_event.pageX;
 	var width = click_event.view.innerWidth;	
-	if (left / width < 0.5) {popup_box.css('left', left + 5)}
-	else {popup_box.css('right', width - left)};
+	if (left / width < 0.5) {$('#popup_box' + id).css('left', left + 5)}
+	else {$('#popup_box' + id).css('right', width - left)};
 	popup_box.css("top", top + 20);
-	
 	popup_box.click(function(){
 			popup_box.remove();
 	});
