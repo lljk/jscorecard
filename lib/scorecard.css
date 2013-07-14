@@ -166,10 +166,18 @@ button{
   z-index: -1;
 }
 
+#pitching_header{
+	width: 100%;
+}
+
 .pitching_table{
 	position: relative
 	display: inline-block;
 	width: 98%;
+}
+
+#footer{
+	width: 100%;
 }
 
 .help_button{
