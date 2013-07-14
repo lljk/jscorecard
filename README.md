@@ -1,9 +1,7 @@
-jscorecard
+jScorecard
 ==========
 
 baseball scorecard generator
-
-jScorecard
 
 Hey there - 
 
