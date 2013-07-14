@@ -29,25 +29,27 @@ Hey there -
 
   The result of each at bat is shown in the center, and is noted as follows:
 
-  1B - Single
-  2B - Double
-  3B - Triple
-  HR - Home Run
-  BB - Walk
-  IBB - Intentional Walk
-  HBP - Hit by Pitch
-  K - Strikeout Swinging
-  (backwards)K - Strikeout Looking
-  F - Fly Out
-  P - Pop Out
-  L - Line Out
-  G - Ground Out
-  FC - Force Out / Fielder's Choice
-  DP - Double Play
-  TP - Triple Play
-  SB - Stolen Base
-  INT - Interference
-  E - Error
+  * 1B - Single
+  * 2B - Double
+  * 3B - Triple
+  * HR - Home Run
+  * BB - Walk
+  * IBB - Intentional Walk
+  * HBP - Hit by Pitch
+  * K - Strikeout Swinging
+  * (backwards)K - Strikeout Looking
+  * F - Fly Out
+  * P - Pop Out
+  * L - Line Out
+  * G - Ground Out
+  * F0 - Force Out
+  * FC - Fielder's Choice
+  * DP - Double Play
+  * TP - Triple Play
+  * SAC - Sacrifice Play
+  * SB - Stolen Base
+  * INT - Interference
+  * E - Error
 
   If a batter had more than one at bat in an inning, '+' is shown below the at bat result.
   
@@ -57,7 +59,6 @@ Hey there -
 
   So I guess that's about it...  I've still got some work to do on the thing, but hopefully it'll mostly work!
 
-  Go Shoes...
   Go Sox!!!
 
   - j
