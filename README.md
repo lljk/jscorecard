@@ -14,7 +14,7 @@ baseball scorecard generator
   
   The away team's card is shown first. To switch cards, click the opposing team's image to the right of the game header.
   
-  Clicking a particular at bat cell will show the description of the at bat.  Clicking a player will show their season and career stats.
+  Clicking an at bat cell will show the description of the at bat.  Clicking a player will show their season and career stats.
 
   Everyone scores games a little differently, so here are some notes about my notation:
 
