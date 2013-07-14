@@ -3,11 +3,8 @@ jScorecard
 
 baseball scorecard generator
 
-Hey there - 
 
-  If you care about baseball half as much as I do, this might be interesting to you - if not, well I'm sorry...
-
-  Assuming you do give a rat's behind about baseball, odds are you've scored a game or two...  I've been living abroad for a good long while - and the truth is that folks where I am are clueless about baseball... their loss.  Anyway, here's an app I worked out to generate html scorecards so I can check out the games the next day in a way that's sensible (to me at least...) even if i can't actually talk to anyone about it ;)
+  If you care about baseball half as much as I do, odds are you've scored a game or two...  I've been living abroad for a good long while - and the truth is that folks where I am are clueless about baseball... their loss.  Anyway, here's an app I worked out to generate html scorecards so I can check out the games the next day in a way that's sensible (to me at least...) even if i can't actually talk to anyone about it ;)
 
   To use the thing:
   
@@ -53,10 +50,10 @@ Hey there -
   
   There's a help button at the bottom right of the page which gives more info.
 
-  I've noticed that this works best for recent games, as not all of the data necessary to generate the scorecards is available for older games - for example, I tried creating cards for the 2004 ALCS game 7 for the screenshot (being a Red Sox fan,) and it didn't work :(  - Had to go back a couple of weeks to find a game that we won instead!
+  I've noticed that this works best for recent games, as not all of the data necessary to generate the scorecards is available for older games - for example, I tried creating cards for the 2004 ALCS game 7 for the screenshot (being a Red Sox fan,) and it didn't work :(
 
-  So I guess that's about it...  I've still got some work to do on the thing, but hopefully it'll mostly work!
+  Still got some work to do on the thing, but hopefully it'll mostly work.
 
-  Go Sox!!!
+  Go Sox!
 
   - j
