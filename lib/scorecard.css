@@ -336,10 +336,8 @@ button{
 .popup_box{
 	position: absolute;
 	z-index: 100%;
-	width: 50%;
-	margin-top: -10%;
-	margin-left: 25%;
-	margin-right: 50%;
+	width: 45%;
+	top: 0;
 	padding: 1em;
 	padding-top: 0.5em;
 	background-color: green;
@@ -348,6 +346,10 @@ button{
 	font-family: Arial;
 	color: white;
 	box-shadow: 2px 7px 10px #050505;
+}
+
+.popup_box:hover {
+	cursor: pointer;
 }
 
 .popup_title{
