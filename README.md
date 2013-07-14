@@ -15,7 +15,7 @@ Hey there -
   
   Download and extract the zip file, then open 'jScorecard.html'.
 
-  Select a date and game from the window that pops up, and click 'make'.
+  Select a date and game, and then click 'make'.
   
   The away team's card is shown first. To switch cards, click the opposing team's image to the right of the game header.
   
