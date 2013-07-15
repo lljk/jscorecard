@@ -33,7 +33,6 @@ h3{
   border-radius: 5px;
   font-family: Arial;
   color: white;
-  padding: 10px;
   text-align: center;
 }
 
@@ -46,6 +45,15 @@ input{
   text-align: center;
 }
 
+.ui-datepicker{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ui-datepicker a {  
+    text-decoration: none;  
+} 
+
 button{
   background: transparent;
   color: white;
@@ -56,6 +64,15 @@ button{
 .confirm_button{
   width: 100px;
   margin: 20px;
+}
+
+#games_list{
+	border: solid 1px white;
+	border-radius: 5px;
+	margin: 1.5em;
+	font-family: Arial;
+	color: white;
+	text-align: center;
 }
 
 .game_listing:hover{
