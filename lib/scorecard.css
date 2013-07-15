@@ -324,7 +324,11 @@ button{
 	text-align: center;
 }
 
-#about_close_button{
+#help_about {
+	text-align: center;
+}
+
+#help_close_button{
 	position: relative;
 	width: 100%;
 	border: solid 1px lime;
@@ -337,7 +341,7 @@ button{
 	font-size: large;
 }
 
-#about_close_button:hover{
+#help_close_button:hover{
 	cursor: pointer;
 }
 
