@@ -8,7 +8,7 @@ baseball scorecard generator
 
   To use the thing:
   
-  Go here: [lljk.github.io/jscorecard/](https://lljk.github.io/jscorecard), or download and extract the zip file, then open 'jScorecard.html'.
+  Go here: [lljk.github.io/jscorecard/](http://lljk.github.io/jscorecard), or download and extract the zip file, then open 'jScorecard.html'.
 
   Select a date and game, and then click 'make'.
   
