@@ -52,8 +52,8 @@ baseball scorecard generator
 
   I've noticed that this works best for recent games, as not all of the data necessary to generate the scorecards is available for older games - for example, I tried creating cards for the 2004 ALCS game 7 for the screenshot (being a Red Sox fan,) and it didn't work :(
 
-  Still got some work to do on the thing, but hopefully it'll mostly work.
+  Still got some work to do on the thing, but hopefully it's done enough to help scratch your baseball itch...
 
-  Go Sox!
+  Go $('#home_team')!
 
   - j
