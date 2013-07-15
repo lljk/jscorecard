@@ -1,0 +1,389 @@
+/*
+	This file is part of: jScorecard (c) 2013 J. Kaiden
+	https://github.com/lljk/jscorecard
+	licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported License.
+	http://creativecommons.org/licenses/by-nc/3.0/deed.en_US
+*/
+
+body{
+   background-image: url('../images/grass.jpg');
+   background-size: cover;
+}
+
+h1{
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  color: white;
+  text-align: center;
+}
+
+h2{
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  color: white;
+  text-align: center;
+}
+
+h3{
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  color: white;
+  text-align: center;
+}
+
+#input_form{
+  border: 1px solid white;
+  border-radius: 5px;
+  font-family: Arial;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+input{
+  background: transparent;
+  border-radius: 5px;
+  font-family: Arial;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+
+button{
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.confirm_button{
+  width: 100px;
+  margin: 20px;
+}
+
+.game_listing:hover{
+  color: blue;
+  cursor: pointer;
+}
+
+#progress_area{
+	background: transparent;
+}
+
+#header{
+  margin-bottom: 0px;
+  position: relative;
+}
+
+#header{
+	min-width: 45em;
+	text-shadow: 1px 5px 8px #050505;
+	padding-bottom: 0px;
+	font-weight: bold;
+}
+
+#header_box{
+	position: relative;
+	top: 0.75em;
+	left: 9em;
+	margin-right: 14.5em;
+}
+
+#header_line{
+	margin-top: 3%;
+	margin-left: 18%;
+	box-shadow: 1px 5px 8px #050505;
+}
+
+#header h1{
+	margin: 0px;
+}
+
+#date_line{
+	position: relative;
+	margin-top: 1%;
+	margin-bottom: 0;
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+	font-weight: bold;
+	font-size: 110%;
+	color: white;
+	text-align: center;
+}
+
+#linescore{
+	position: relative;
+	width: 100%;
+	 border: solid 1px white;
+	 border-radius: 7px;
+	 box-shadow: 1px 5px 8px #050505;
+}
+
+#linescore h1, #linescore h2{
+	margin: 0px;
+}
+
+.linescore_box{
+	width: 2em;
+	border: solid 1px white;
+	border-radius: 4px;
+	margin: 0px;
+	color: white;
+	text-align: center;
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", 	serif;
+	font-weight: bold;
+}
+
+#header img{
+  -webkit-filter: drop-shadow(1px 5px 8px #050505);
+  -moz-filter: drop-shadow(1px 5px 8px #050505);
+  -ms-filter: drop-shadow(1px 5px 8px #050505);
+  -o-filter: drop-shadow(1px 5px 8px #050505);
+}
+
+#card_switch{
+  border: none;
+  position: absolute;
+  top: 46%;
+  right: 1.5em;
+  width: 4em;
+  height: 4em;
+  background-position: center;
+}
+
+#card_switch img{
+	width: 4em;
+	height: 4em;
+}
+
+#card_switch:hover{
+  cursor: pointer;
+}
+
+.team_image{
+  position: absolute;
+  width: 8em;
+  height: 8em;
+  bottom: -2.5em;
+  left: 0;
+  margin-bottom: 0px;
+  z-index: -1;
+}
+
+#pitching_header{
+	width: 100%;
+}
+
+.pitching_table{
+	position: relative
+	display: inline-block;
+	width: 98%;
+}
+
+#footer{
+	width: 100%;
+}
+
+.help_button{
+	position: relative;
+	bottom: 1.1em;
+	margin-left: 93%;
+	width: 2.5em;
+	height: 2.5em;
+	border: solid 1px white;
+	border-radius: 1.25em;
+	background-color: #298A08;
+	box-shadow: 2px 7px 10px #050505;
+}
+
+.help_button p{
+	position: relative;
+	bottom: 75%;
+	width: 100%;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.help_button:hover{
+	cursor: pointer;
+}
+
+#help_tabs_div{
+	position: relative;
+	top: 1px;
+	left: 0.25em;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+.help_tab{
+	position: relative;
+	display: inline-block;
+	border: solid 1px white;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom: none;
+	margin-right: 3px;
+	margin-bottom: 0;
+	padding: 0.25em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.help_tab:hover{
+	cursor: pointer;
+}
+
+.help_body{
+	border: solid 1px white;
+	border-radius: 5px;
+	margin-top: 0;
+	padding: 1em;
+}
+
+#help_switch_div {
+	text-align: left;
+}
+
+#help_card_switch_img{
+	position: relative;
+	display: inline;
+	width: 4em;
+	height: 4em;
+}
+
+#help_card_switch_text{
+	display: inline;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	width: 80%;
+	top: 0.5em;
+}
+
+#help_player_box{
+	position:relative;
+	display: inline-block;
+	width: 5em;
+}
+
+#help_player_div p{
+	display: inline-block;
+	width: 60%;
+	margin-left: 1em;
+}
+
+#help_cell_div p{
+	display: inline-block;
+	width: 70%;
+}
+
+#help_cell_example{
+	position: relative;
+	left: 2em;
+	opacity: 1.0;
+	color: black;
+}
+
+.help_cell_box{
+	position: relative;
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+.help_cell_box p{
+	display: inline;
+	position: absolute;
+	top: -1.25em;
+	margin-left: 1em;
+}
+
+#help_cell_hit{
+	opacity: 1.0;
+	position: relative;
+	max-height: 4em;
+	color: black;
+}
+
+#help_cell_out{
+	opacity: 1.0;
+	position: relative;
+	max-height: 4em;
+	color: black;
+}
+
+#help_note_table{
+	position: relative;
+	width: 100%;
+}
+
+#help_note_table td{
+	width: 50%;
+}
+
+#help_note p{
+	text-align: center;
+}
+
+#about_close_button{
+	position: relative;
+	width: 100%;
+	border: solid 1px lime;
+	border-radius: 3px;
+	margin-top: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	text-align: center;
+	font-weight: bold;
+	font-size: large;
+}
+
+#about_close_button:hover{
+	cursor: pointer;
+}
+
+.popup_box{
+	position: absolute;
+	z-index: 100%;
+	width: 45%;
+	top: 0;
+	padding: 1em;
+	padding-top: 0.5em;
+	background-color: green;
+	border: solid 1px lime;
+	border-radius: 10px;
+	font-family: Arial;
+	color: white;
+	box-shadow: 2px 7px 10px #050505;
+}
+
+.popup_box:hover {
+	cursor: pointer;
+}
+
+.popup_title{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	padding-bottom: 0.5em;
+	margin-bottom: 0.75em;
+	border-bottom: solid 1px lime;
+}
+
+.popup_close{
+	position: absolute;
+	right: 0;
+	bottom: 25%;
+	padding: 0;
+	border: none;
+	font-weight: bold;
+	font-size: large;
+}
+
+.popup_stats_table{
+  width: 100%;
+  text-align: center;
+  border: solid 1px white;
+  border-radius: 10px;
+}
+
+/* EOF
