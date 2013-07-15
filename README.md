@@ -50,7 +50,7 @@ baseball scorecard generator
   
   There's a help button at the bottom right of the page which gives more info.
 
-  I've noticed that this works best for recent games, as not all of the data necessary to generate the scorecards is available for older games - for example, I tried creating cards for the 2004 ALCS game 7 for the screenshot (being a Red Sox fan,) and it didn't work :(
+  I've noticed that this works best for recent games, as not all of the data necessary to generate the scorecards is available for older games - for example, I tried creating cards for game 7 of the 2004 ALCS for the screenshot (being a Red Sox fan,) and it didn't work :(
 
   Still got some work to do on the thing, but hopefully it's done enough to help scratch your baseball itch...
 
