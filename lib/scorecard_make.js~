@@ -180,18 +180,12 @@ function make_atbat_cell(cell, atbat, inning, description, multi_atbat) {
 			if (outs){ cell.append('<div class="out"><p>' + outs + '<p></div>') };
 	});
 	get_event(atbat, function(note, hit){
-			var note_box = $('<div class="note"></div>')
-			if ((atbat.des).match('error')) {
-				note_box.append("<div class='error'>E</div>");
-			};
 			if (note == 'Kc') {
 				note = 'K';
-				note_box.prepend('<div id="called_strikeout">' + note + '</div>');
-				cell.append(note_box);
+				cell.append('<div class="note" id="called_strikeout">' + note + '</div>');
 			}
 			else {
-				note_box.prepend(note);
-				cell.append(note_box);
+				cell.append('<div class="note">' + note + '</div>');
 			};
 			if (hit) {cell.append('<div class="' + hit + '"></div>')};
 	});
@@ -215,8 +209,6 @@ function make_atbat_cell(cell, atbat, inning, description, multi_atbat) {
 	if ((atbat.des).match('Stolen')) {
 		cell.append('<div class="stolen_base">SB</div>');
 	};
-	//console.log(atbat.num, atbat.des);/////////////////////
-	
 	if (multi_atbat) {
 		cell.append('<div class="multi_atbat">&#10753</div>');
 	};

@@ -350,6 +350,26 @@ function get_rbi(atbat_des, callback) {
 };
 
 function get_bases(atbat, index, atbats, callback) {
+	var bases = [], pitch = null;
+	var next_atbat = atbats[index + 1];
+	if (next_atbat){
+		pitch = next_atbat.pitch[0]
+	}
+	else{
+		pitch = atbat.pitch[atbat.pitch.length - 1]
+	}
+	if (pitch) {
+		if (pitch.on_1b) {bases.push(1)};
+		if (pitch.on_2b) {bases.push(2)};
+		if (pitch.on_3b) {bases.push(3)};
+	};
+
+	if (bases.length > 0) {
+		callback(bases);
+	};
+};
+
+function xget_bases(atbat, index, atbats, callback) {
 	var bases = [], onbase = null;
 	if (atbat.runner) {
 		if (atbat.runner.length){
@@ -388,6 +408,7 @@ function get_atbat_des(atbat) {
 
 function get_event(atbat, callback) {
 	var note = '', hit = null, event = atbat.event, desc = atbat.des;
+	
 	switch(event) {
 	case 'Single': note = '1B'; hit = 'single'; break;
 	case 'Double': note = '2B'; hit = 'double'; break;
@@ -404,6 +425,7 @@ function get_event(atbat, callback) {
 	case 'Pop Out': note = 'P'; break;
 	case 'Lineout': note = 'L'; break;
 	case 'Forceout': note = 'FO'; break;
+	case 'Field Error': note = 'E'; break;
 	}
 	if (event.match('DP') || desc.match('double play')) { note = 'DP'; }
 	else if (event.match('TP') || desc.match('triple play')) { note = 'TP'; }
