@@ -18,7 +18,7 @@ baseball scorecard generator
 
   Everyone scores games a little differently, so here are some notes about my notation:
 
-  Balls and strikes are shown in the upper left hand corner of each at bat cell, fielding or hit location in the lower left.  Rbi's are shown in the upper right corner, and outs in the lower right.
+  Balls and strikes are shown in the upper left hand corner of each at bat cell, fielding or hit location in the lower left.  RBI are shown in the upper right corner, and outs in the lower right.
 
   Base hits are shown as a darkened path to the base, runners with darkened bases.
 
