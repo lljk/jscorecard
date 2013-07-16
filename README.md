@@ -8,7 +8,7 @@ baseball scorecard generator
 
   To use the thing:
   
-  Download and extract the zip file, then open 'jScorecard.html'.
+  Go here: [lljk.github.io/jscorecard/](http://lljk.github.io/jscorecard), or download and extract the zip file, then open 'jScorecard.html'.
 
   Select a date and game, and then click 'make'.
   
@@ -50,10 +50,10 @@ baseball scorecard generator
   
   There's a help button at the bottom right of the page which gives more info.
 
-  I've noticed that this works best for recent games, as not all of the data necessary to generate the scorecards is available for older games - for example, I tried creating cards for the 2004 ALCS game 7 for the screenshot (being a Red Sox fan,) and it didn't work :(
+  I've noticed that this works best for recent games, as not all of the data necessary to generate the scorecards is available for older games - for example, I tried creating cards for game 7 of the 2004 ALCS for the screenshot (being a Red Sox fan,) and it didn't work :(
 
-  Still got some work to do on the thing, but hopefully it'll mostly work.
+  Still got some work to do on the thing, but hopefully it's done enough to help scratch your baseball itch...
 
-  Go Sox!
+  Go $('#home_team')!
 
   - j
