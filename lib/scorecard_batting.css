@@ -187,9 +187,9 @@
 
 .multi_atbat{
 	position: absolute;
+	top: 40%;
 	width: 100%;
-	height: 0;
-	bottom: 60%;
+	padding: 0px;
 	color: #0B610B;
 	text-align: center;
 	font-family: "Comic Sans MS", cursive, sans-serif;

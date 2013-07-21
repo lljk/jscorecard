@@ -165,6 +165,15 @@
 	transform: rotate(180deg);
 }
 
+.error{
+	display: inline;
+	vertical-align: super;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+	font-size: small;
+	color: #610B0B;
+}
+
 .stolen_base{
 	position: absolute;
 	width: 100%;
