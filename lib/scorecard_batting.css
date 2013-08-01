@@ -144,6 +144,19 @@
 	transform-origin: 0 100%;
 }
 
+.basepath{
+	position: relative;
+	width: 104%;
+	height: 104%;
+	right: 2%;
+	bottom: 2%;
+	border: solid 5px transparent;
+	border-radius: 7px;
+	-moz-box-sizing:    border-box;
+	-webkit-box-sizing: border-box;
+  box-sizing:        border-box;
+}
+
 .note{
 	position: absolute;
 	width: 100%;
@@ -250,187 +263,6 @@
 	padding: 0px;
 	margin: 17%;
 	margin-top: -0.1em;
-}
-
-.single {
-	position: absolute;
-	width: 55%; 
-	height: 55%;
-	top: 32%;
-	left: 55%;
-	bottom: 0;
-	right: 0;
-	background: transparent;
-	border-bottom: solid 0.4em black;
-	border-bottom-right-radius: 10px 5px;
-	border-bottom-left-radius: 5px 10px;
-	/* Rotate */
-	-webkit-transform: rotate(-45deg);
-	-moz-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-	-o-transform: rotate(-45deg);
-	transform: rotate(-45deg);
-	/* Rotate Origin */
-	-webkit-transform-origin: 0 100%;
-	-moz-transform-origin: 0 100%;
-	-ms-transform-origin: 0 100%;
-	-o-transform-origin: 0 100%;
-	transform-origin: 0 100%;
-}
-
-.double {
-	position: absolute;
-	width: 55%; 
-	height: 55%;
-	top: 32%;
-	left: 55%;
-	bottom: 0;
-	right: 0;
-	background: transparent;
-	border-bottom: solid 0.4em black;
-	border-right: solid 0.4em black;
-	border-bottom-right-radius: 5px 5px;
-	border-top-right-radius: 10px 5px;
-	border-bottom-left-radius: 5px 10px;
-	/* Rotate */
-	-webkit-transform: rotate(-45deg);
-	-moz-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-	-o-transform: rotate(-45deg);
-	transform: rotate(-45deg);
-	/* Rotate Origin */
-	-webkit-transform-origin: 0 100%;
-	-moz-transform-origin: 0 100%;
-	-ms-transform-origin: 0 100%;
-	-o-transform-origin: 0 100%;
-	transform-origin: 0 100%;
-}
-
-.triple {
-	position: absolute;
-	width: 55%; 
-	height: 55%;
-	top: 25%;
-	left: 55%;
-	bottom: 0;
-	right: 0;
-	background: transparent;
-	border-bottom: solid 0.4em black;
-	border-right: solid 0.4em black;
-	border-top: solid 0.4em black;
-	border-bottom-right-radius: 5px 5px;
-	border-top-right-radius: 5px 5px;
-	border-top-left-radius:10px 5px;
-	border-bottom-left-radius: 5px 10px;
-	/* Rotate */
-	-webkit-transform: rotate(-45deg);
-	-moz-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-	-o-transform: rotate(-45deg);
-	transform: rotate(-45deg);
-	/* Rotate Origin */
-	-webkit-transform-origin: 0 100%;
-	-moz-transform-origin: 0 100%;
-	-ms-transform-origin: 0 100%;
-	-o-transform-origin: 0 100%;
-	transform-origin: 0 100%;
-}
-
-.home_run {
-	position: absolute;
-	width: 60%; 
-	height: 60%;
-	top: 29%;
-	left: 51%;
-	bottom: 0;
-	right: 0;
-	background: transparent;
-	border: solid 0.4em black;
-	border-radius: 7px;
-	/* Rotate */
-	-webkit-transform: rotate(-45deg);
-	-moz-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-	-o-transform: rotate(-45deg);
-	transform: rotate(-45deg);
-	/* Rotate Origin */
-	-webkit-transform-origin: 0 100%;
-	-moz-transform-origin: 0 100%;
-	-ms-transform-origin: 0 100%;
-	-o-transform-origin: 0 100%;
-	transform-origin: 0 100%;
-}
-
-.base1 {
-	position: absolute;
-	width: 20%; 
-	height: 20%;
-	top: 45%;
-	left: 85%;
-	bottom: 0;
-	right: 0;
-	background: black;
-	border-radius: 3px;
-	/* Rotate */
-	-webkit-transform: rotate(-45deg);
-	-moz-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-	-o-transform: rotate(-45deg);
-	transform: rotate(-45deg);
-	/* Rotate Origin */
-	-webkit-transform-origin: 0 100%;
-	-moz-transform-origin: 0 100%;
-	-ms-transform-origin: 0 100%;
-	-o-transform-origin: 0 100%;
-	transform-origin: 0 100%;
-}
-
-.base2 {
-	position: absolute;
-	width: 20%; 
-	height: 20%;
-	top: 10%;
-	left: 50%;
-	bottom: 0;
-	right: 0;
-	background: black;
-	border-radius: 3px;
-	/* Rotate */
-	-webkit-transform: rotate(-45deg);
-	-moz-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-	-o-transform: rotate(-45deg);
-	transform: rotate(-45deg);
-	/* Rotate Origin */
-	-webkit-transform-origin: 0 100%;
-	-moz-transform-origin: 0 100%;
-	-ms-transform-origin: 0 100%;
-	-o-transform-origin: 0 100%;
-	transform-origin: 0 100%;
-}
-
-.base3 {
-	position: absolute;
-	width: 20%; 
-	height: 20%;
-	top: 45%;
-	left: 15%;
-	bottom: 0;
-	right: 0;
-	background: black;
-	border-radius: 3px;
-	/* Rotate */
-	-webkit-transform: rotate(-45deg);
-	-moz-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-	-o-transform: rotate(-45deg);
-	transform: rotate(-45deg);
-	/* Rotate Origin */
-	-webkit-transform-origin: 0 100%;
-	-moz-transform-origin: 0 100%;
-	-ms-transform-origin: 0 100%;
-	-o-transform-origin: 0 100%;
-	transform-origin: 0 100%;
 }
 
 /* EOF
